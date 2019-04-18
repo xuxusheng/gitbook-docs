@@ -1,0 +1,18 @@
+{
+  "name": "gitbook-docs",
+  "version": "1.0.0",
+  "main": "index.js",
+  "repository": "git@github.com:xuxusheng/gitbook-docs.git",
+  "license": "MIT",
+  "scripts": {
+    "postinstall": "gitbook install",
+    "build": "node ./_ci/build.js",
+    "start": "gitbook serve"
+  },
+  "dependencies": {
+    "gitbook-cli": "^2.3.2"
+  },
+  "devDependencies": {
+    "shelljs": "^0.8.3"
+  }
+}

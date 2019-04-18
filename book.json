@@ -1,0 +1,32 @@
+{
+  "plugins": [
+    "-sharing",
+    "prism",
+    "-highlight",
+    "fancybox"
+  ],
+  "pluginsConfig": {
+    "fontsettings": {
+      "theme": "white",
+      "family": "sans",
+      "size": 2
+    },
+    "prism": {
+      "css": [
+        "prismjs/themes/prism-solarizedlight.css"
+      ],
+      "lang": {
+        "flow": "typescript",
+        "xql": "sql"
+      }
+    },
+    "fancybox": {
+      "helpers": {
+        "buttons": {}
+      }
+    }
+  },
+  "styles": {
+    "website": "styles/website.css"
+  }
+}
